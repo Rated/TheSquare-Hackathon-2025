@@ -16,9 +16,15 @@ https://github.com/Rated/TheSquare-Hackathon-2025
 
 Participants are tasked with developing a full-stack web application within the given timeline. You can choose from the following project ideas, or feel free to come up with your own idea:
 
-- **Search Page design with API Integration**
-- **Listing page - Overview and Image Upload Step**
-- **Login with credentials & Social Login (Google, Facebook, LinkedIn)**
+### 1. **Search Page Design with API Integration**
+<a href="resource/Task1-SearchPage/1-Search-Page-Card-View.pdf" target="_blank">**Open PDF - Card Design**</a>  
+<a href="resource/Task1-SearchPage/2-Search-Page-Map-View.pdf" target="_blank">**Open PDF - Map View Design**</a>
+
+### 2. **Listing page - Overview and Image Upload Step**
+[**Download PDF**](resource/Task2-ListingPage/Listing-Steps.pdf)
+
+### 3. **Login with credentials & Social Login (Google, Facebook, LinkedIn)**
+[**Download PDF**](resource/Task3-Login/Popup-Login.pdf)
 
 ## How to Get Started
 
