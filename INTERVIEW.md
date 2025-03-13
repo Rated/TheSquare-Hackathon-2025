@@ -79,23 +79,29 @@ To filter by the number of bedrooms, use the `num_bedroom` parameter. The possib
 - `4` for Four Bed
 - `5` for Five Bed, and so on.
 
-Example:
+- For a single Bedroom:
 ```bash
-?num_bedroom
+&num_bedroom=-1
 ```
+- For multiple Bedroom:
+```bash
+&num_bedroom=-1&num_bedroom=1&num_bedroom=2
+```
+
 ### For Popular Neighborhoods Filter:
 To filter by neighborhood, use the `suburb` parameter. You can filter by a single neighborhood or multiple neighborhoods:
 
 - For a single neighborhood:
-  ```bash
-  &suburb=london/kensington
+```bash
+&suburb=london/kensington
 ```
+
 - For multiple neighborhoods:
   ```bash
   &suburb=london/kensington&suburb=london/south-kensington
-```
+  ```
 
-### For Essentials Filters:
+###   For Essentials Filters:
 To filter by amenities, you can apply a single or multiple filters:
 
 - **For a single filter**:
@@ -108,7 +114,7 @@ To filter by amenities, you can apply a single or multiple filters:
 ```
 
 ### Sorting
-You should show a Sort filter at the top of the page. The available sorting options are as follows:
+-  You should show a Sort filter at the top of the page. The available sorting options are as follows:
 There are multiple ways of sorting:
 
 - **Relevance**:  
@@ -142,9 +148,9 @@ For pagination, use the `start` parameter to determine the starting point for ea
 - For the next 15 records:
   ```bash
   &start=15
-```
-
+  ```
 -  For the following 15 records:
+
 ```bash
 &start=30
 ```
